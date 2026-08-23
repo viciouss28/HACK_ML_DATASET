@@ -1,0 +1,24 @@
+column_name,description,data_type
+id,Unique identifier assigned to each record,Integer
+Diabetes_012,Diabetes status where 0 is no diabetes 1 is prediabetes and 2 is diabetes,Categorical
+HighBP,Whether the person has been told they have high blood pressure,Binary
+HighChol,Whether the person has been told they have high cholesterol,Binary
+CholCheck,Whether cholesterol was checked within the past five years,Binary
+BMI,Body Mass Index,Numeric
+Smoker,Whether the person has smoked at least 100 cigarettes in their lifetime,Binary
+Stroke,Whether the person has ever had a stroke,Binary
+HeartDiseaseorAttack,Whether the person has coronary heart disease or myocardial infarction,Binary
+PhysActivity,Whether the person participated in physical activity during the past 30 days,Binary
+Fruits,Whether the person consumes fruit at least once per day,Binary
+Veggies,Whether the person consumes vegetables at least once per day,Binary
+HvyAlcoholConsump,Whether the person is a heavy alcohol consumer,Binary
+AnyHealthcare,Whether the person has any kind of health care coverage,Binary
+NoDocbcCost,Whether there was a time in the past 12 months when the person needed medical care but could not afford it,Binary
+GenHlth,Self-reported general health status from excellent to poor,Ordinal
+MentHlth,Number of days during the past 30 days when mental health was not good,Integer
+PhysHlth,Number of days during the past 30 days when physical health was not good,Integer
+DiffWalk,Whether the person has serious difficulty walking or climbing stairs,Binary
+Sex,Sex of the respondent,Binary
+Age,Age category of the respondent,Ordinal
+Education,Education level category,Ordinal
+Income,Income category,Ordinal
