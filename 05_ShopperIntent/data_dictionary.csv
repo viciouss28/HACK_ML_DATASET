@@ -1,0 +1,20 @@
+column_name,description,data_type
+id,Unique identifier assigned to each session,Integer
+Administrative,Number of administrative-type pages visited,Integer
+Administrative_Duration,Total time spent on administrative pages,Numeric
+Informational,Number of informational pages visited,Integer
+Informational_Duration,Total time spent on informational pages,Numeric
+ProductRelated,Number of product-related pages visited,Integer
+ProductRelated_Duration,Total time spent on product-related pages,Numeric
+BounceRates,Average bounce rate of pages visited during the session,Numeric
+ExitRates,Average exit rate of pages visited during the session,Numeric
+PageValues,Average page value of pages visited during the session,Numeric
+SpecialDay,Closeness of the site visit to a special day such as a holiday,Numeric
+Month,Month of the visit,Categorical
+OperatingSystems,Operating system used by the visitor,Categorical
+Browser,Browser used by the visitor,Categorical
+Region,Geographical region of the visitor,Categorical
+TrafficType,Type of traffic source used to reach the website,Categorical
+VisitorType,Type of visitor such as returning or new visitor,Categorical
+Weekend,Whether the visit occurred on a weekend,Binary
+Revenue,Whether the session resulted in a purchase,Binary
